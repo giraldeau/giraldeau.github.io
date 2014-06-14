@@ -1,0 +1,68 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+ <title>Publications</title>
+</head>
+<body bgcolor=white>
+
+<h1>Publications (BibTeX format)</h1>
+
+<a name="giraldeau2011kerneltrace"></a>
+<pre>
+@inproceedings{giraldeau2011kerneltrace,
+  title={Recovering System Metrics from Kernel Trace},
+  author={Giraldeau, F. and Desfossez, J. and Goulet, D. and Dagenais, M. and Desnoyers, M.},
+  booktitle={Proceedings of the Linux Symposium},
+  year={2011}
+}
+</pre>
+
+<a name="barrette2003development"></a>
+<pre>
+@conference{barrette2003development,
+  title={{Development, installation and maintenance of Elix-II, a 180 nodes diskless cluster running thin-oscar}},
+  author={Barrette, M. and Barnabe-Theriault, X. and Bozzo-Rey, M. and Gauthier, C. and Giraldeau, F. and des Ligneris, B. and Turcotte, J.P. and Vachon, P. and Veilleux, A.},
+  booktitle={Proceedings of the 17th Annual International Symposium on High Performance Computing Systems and Applications and the OSCAR Symposium: May 11-14, 2003, Sherbrooke, Quebec, Canada},
+  pages={273},
+  year={2003},
+  organization={NRC Research Press}
+}
+</pre>
+
+<a name="des2003thin"></a>
+<pre>
+@conference{des2003thin,
+  title={{Thin-OSCAR: Design and future implementation}},
+  author={des Ligneris, B. and Barrette, M. and Giraldeau, F. and Dagenais, M.},
+  booktitle={in, OSCAR2003 Conference},
+  year={2003},
+  organization={Citeseer}
+}
+</pre>
+
+<a name="mugler-oscar"></a>
+<pre>
+@conference{mugler-oscar,
+  title={{Oscar clusters}},
+  author={Mugler, J. and Naughton, T. and Scott, S.L. and Barret, B. and Lumsdaine, A. and Squyres, J.M. and des Ligneris, B. and Giraldeau, F. and Leangsuksun, C.},
+  booktitle={Linux Symposium},
+  pages={387},
+  organization={Citeseer}
+}
+</pre>
+
+<a name="giraldeau2006mille"></a>
+<pre>
+@article{giraldeau2006mille,
+  title={{MILLE-XTERM and LTSP}},
+  author={Giraldeau, F. and Dault, J.M. and Ligneris, B.},
+  journal={Linux Journal},
+  number={149},
+  pages={78--81},
+  year={2006},
+  publisher={SSC, Inc, 2208 NW Market Street, Suite 407, Seattle, WA, 98107, USA,}
+}
+</pre>
+
+</body>
+</html>
