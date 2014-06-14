@@ -1,169 +1,311 @@
 <!DOCTYPE HTML>
 <!--
-	Astral 2.5 by HTML5 UP
+	Thanks to the template creator for the amazing work.
+	
+	Prologue 1.2 by HTML5 UP
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
 	<head>
-		<title>Astral by HTML5 UP</title>
+		<title>Francis Giraldeau</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400" rel="stylesheet" />
+		<meta name="description" content="Francis Giraldeau personal page" />
+		<meta name="keywords" content="augeas linux tracing lttng" />
+		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600" rel="stylesheet" type="text/css" />
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
 		<script src="js/jquery.min.js"></script>
 		<script src="js/skel.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
 		<script src="js/init.js"></script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel-noscript.css" />
 			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-desktop.css" />
-			<link rel="stylesheet" href="css/noscript.css" />
+			<link rel="stylesheet" href="css/style-wide.css" />
 		</noscript>
-		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
 	</head>
-	<body class="homepage">
+	<body>
 
-		<!-- Wrapper-->
-			<div id="wrapper">
-				
-				<!-- Nav -->
-					<nav id="nav">
-						<a href="#me" class="fa fa-home active"><span>Home</span></a>
-						<a href="#work" class="fa fa-folder"><span>Work</span></a>
-						<a href="#email" class="fa fa-envelope"><span>Email Me</span></a>
-						<a href="http://twitter.com/n33co" class="fa fa-twitter"><span>Twitter</span></a>
-					</nav>
+		<!-- Header -->
+			<div id="header" class="skel-panels-fixed">
 
-				<!-- Main -->
-					<div id="main">
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/fg48.jpg" alt="" /></span>
+							<h1 id="title">Francis Giraldeau</h1>
+							<span class="byline">Software Engineering</span>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<!--
+							
+								Prologue's nav expects links in one of two formats:
+								
+								1. Hash link (scrolls to a different section within the page)
+								
+								   <li><a href="#foobar" id="foobar-link" class="skel-panels-ignoreHref"><span class="fa fa-whatever-icon-you-want">Foobar</span></a></li>
+
+								2. Standard link (sends the user to another page/site)
+
+								   <li><a href="http://foobar.tld"><span class="fa fa-whatever-icon-you-want">Foobar</span></a></li>
+							
+							-->
+							<ul>
+								<li><a href="#top" id="top-link" class="skel-panels-ignoreHref"><span class="fa fa-home">Intro</span></a></li>
+								<li><a href="#teaching" id="teaching-link" class="skel-panels-ignoreHref"><span class="fa fa-th">Teaching</span></a></li>
+								<li><a href="#publications" id="publications-link" class="skel-panels-ignoreHref"><span class="fa fa-th">Publications</span></a></li>
+								<li><a href="#about" id="about-link" class="skel-panels-ignoreHref"><span class="fa fa-user">About Me</span></a></li>
+								<li><a href="#contact" id="contact-link" class="skel-panels-ignoreHref"><span class="fa fa-envelope">Contact</span></a></li>
+							</ul>
+						</nav>
 						
-						<!-- Me -->
-							<article id="me" class="panel">
-								<header>
-									<h1>Jane Doe</h1>
-									<span class="byline">Senior Astral Projectionist</span>
-								</header>
-								<a href="#work" class="jumplink pic">
-									<span class="arrow fa fa-chevron-right"><span>See my work</span></span>
-									<img src="images/me.jpg" alt="" />
-								</a>
-							</article>
+				</div>
+				
+				<div class="bottom">
 
-						<!-- Work --> 
-							<article id="work" class="panel">
-								<header>
-									<h2>Work</h2>
-								</header>
-								<p>
-									Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu elit. 
-									Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia 
-									luctus elit eget interdum.
-								</p>
-								<section class="is-gallery">
-									<div class="row half">
-										<div class="4u">
-											<a href="http://flypixel.com/knob/3495684098026313" class="image image-full"><img src="images/1.jpg" alt=""></a>
-										</div>
-										<div class="4u">
-											<a href="http://flypixel.com/contact-login-form/8829734266026310" class="image image-full"><img src="images/2.jpg" alt=""></a>
-										</div>
-										<div class="4u">
-											<a href="http://flypixel.com/wallpaper-pack/3755398966026313" class="image image-full"><img src="images/3.jpg" alt=""></a>
-										</div>
-									</div>
-									<div class="row half">
-										<div class="4u">
-											<a href="http://flypixel.com/44-shades-of-free-icons/8268508056006318" class="image image-full"><img src="images/4.jpg" alt=""></a>
-										</div>
-										<div class="4u">
-											<a href="http://flypixel.com/flip-clock/3655053956026317" class="image image-full"><img src="images/5.jpg" alt=""></a>
-										</div>
-										<div class="4u">
-											<a href="http://flypixel.com/dropdown/5290304620795313" class="image image-full"><img src="images/6.jpg" alt=""></a>
-										</div>
-									</div>
-									<div class="row half">
-										<div class="4u">
-											<a href="http://flypixel.com/pie-charts/1759361594616314" class="image image-full"><img src="images/7.jpg" alt=""></a>
-										</div>
-										<div class="4u">
-											<a href="http://flypixel.com/sliding-selector-bar/7042935581006315" class="image image-full"><img src="images/8.jpg" alt=""></a>
-										</div>
-										<div class="4u">
-											<a href="http://flypixel.com/dark-as-hell-ui/5418809286006313" class="image image-full"><img src="images/9.jpg" alt=""></a>
-										</div>
-									</div>
-									<div class="row half">
-										<div class="4u">
-											<a href="http://flypixel.com/cityscape/9803996277226316" class="image image-full"><img src="images/10.jpg" alt=""></a>
-										</div>
-										<div class="4u">
-											<a href="http://flypixel.com/dropdown/8259263378026313" class="image image-full"><img src="images/11.jpg" alt=""></a>
-										</div>
-										<div class="4u">
-											<a href="http://flypixel.com/wood-ui-kit/3574765984616310" class="image image-full"><img src="images/12.jpg" alt=""></a>
-										</div>
-									</div>
-									<div class="row half">
-										<div class="4u">
-											<a href="http://flypixel.com/upload-button/9737964647895311" class="image image-full"><img src="images/13.jpg" alt=""></a>
-										</div>
-										<div class="4u">
-											<a href="http://flypixel.com/collapsible-menunavigation/5743165610406316" class="image image-full"><img src="images/14.jpg" alt=""></a>
-										</div>
-										<div class="4u">
-											<a href="http://flypixel.com/3d-button/5506786525606318" class="image image-full"><img src="images/15.jpg" alt=""></a>
-										</div>
-									</div>
-								</section>
-							</article>
+					<!-- Social Icons -->
+						<ul class="icons">
+<!-- 						I'm not on social medias -->
+<!-- 							<li><a href="#" class="fa fa-twitter solo"><span>Twitter</span></a></li> -->
+<!-- 							<li><a href="#" class="fa fa-facebook solo"><span>Facebook</span></a></li> -->
+							<li><a href="#" class="fa fa-github solo"><span>Github</span></a></li>
+<!-- 							<li><a href="#" class="fa fa-dribbble solo"><span>Dribbble</span></a></li> -->
+							<li><a href="mailto:francis.giraldeau@gmail.com" class="fa fa-envelope solo"><span>Email</span></a></li>
+						</ul>
+				
+				</div>
+			
+			</div>
 
-						<!-- Email -->
-							<article id="email" class="panel">
-								<header>
-									<h2>Email Me</h2>
-								</header>
-								<form action="#" method="post">
-									<div>
-										<div class="row half">
-											<div class="6u">
-												<input type="text" class="text" name="name" placeholder="Name" />
-											</div>
-											<div class="6u">
-												<input type="text" class="text" name="email" placeholder="Email" />
-											</div>
-										</div>
-										<div class="row half">
-											<div class="12u">
-												<input type="text" class="text" name="subject" placeholder="Subject" />
-											</div>
-										</div>
-										<div class="row half">
-											<div class="12u">
-												<textarea name="message" placeholder="Message"></textarea>
-											</div>
-										</div>
-										<div class="row">
-											<div class="12u">
-												<input type="submit" class="button" value="Send Message" />
-											</div>
-										</div>
-									</div>
-								</form>
-							</article>
+		<!-- Main -->
+			<div id="main">
+			
+				<!-- Intro -->
+					<section id="top" class="one">
+						<div class="container">
 
-					</div>
-		
-				<!-- Footer -->
-					<div id="footer">
-						<ul class="links">
-							<li>&copy; Jane Doe</li>
-							<li>Images : <a href="http://fotogrph.com/">fotogrph</a></li>
-							<li>Design : <a href="http://html5up.net/">HTML5 UP</a></li>
+							<a class="image featured"><img src="images/header.jpg" alt="" /></a>
+
+							<header>
+								<h2 class="alt"><strong>Francis Giraldeau</strong> is a PhD candidate and teacher assistant at <a href="http://www.polymtl.ca/" target="blank">Polytechnique Montreal</a>.
+								His research focuses on the performance analysis of distributed applications using kernel tracing. You will find his code on 
+								<a href="http://github.com/giraldeau" target="blank">GitHub</a> and more information on his <a href="http://multivax.blogspot.com" target="blank">Blog</a>. 
+								</h2>
+							</header>
+							
+						</div>
+					</section>
+					
+				<!-- Teaching -->
+					<section id="teaching" class="two">
+						<div class="container">
+					
+							<header>
+								<h2>Teaching</h2>
+							</header>
+							
+							<p>I try to design activities to provide significant experiences for students so that they are able
+							to build a strong concept network. Activities that I suggest are based on problem solving and active learning.
+							All labs are based on Open Source tools.</p>
+						
+							<div class="row">
+								<div class="4u">
+									<article class="item">
+									<a href="http://www.polymtl.ca/etudes/cours/details.php?sigle=INF8601" class="image full"><img src="images/dragon.png" alt="" /></a>
+									
+										<header>
+											<h3><a href="http://www.polymtl.ca/etudes/cours/details.php?sigle=INF8601">INF8601 - Parallel computing</a></h3>
+										</header>
+										<p><a href="http://en.wikipedia.org/wiki/POSIX_Threads">PThread</a>, <a href="http://www.threadingbuildingblocks.org/">Threading Building Block</a>,
+										  <a href="http://gcc.gnu.org/projects/gomp/">OpenMP</a>, <a href="https://www.khronos.org/opencl/">OpenCL</a> and 
+										  <a href="http://www.open-mpi.org/">OpenMPI</a>. We use the Amdahl's law to evaluate achievable speedup, use the 
+										  Valgrind profiler to identify parallelizable code and diagnose common slowdown pitfals using performance counters.
+										  </p>
+										  <p>Teacher assistant: 2011, 2012, 2013</p>
+									</article>
+								</div>
+								<div class="4u">
+									<article class="item">
+										<a href="http://www.polymtl.ca/etudes/cours/details.php?sigle=INF2610" class="image full"><img src="images/os.png" alt="" /></a>
+										<header>
+											<h3><a href="http://www.polymtl.ca/etudes/cours/details.php?sigle=INF2610">INF2610 - Operating System</a></h3>
+										</header>
+										<p>System calls in assembly, kernel tracing, race conditions, deadlock, passive and active locking, virtual memory, communication with pipes, parallel image processing project.   
+										</p>
+										<p>Lecturer: 2012</br>
+										Teacher assistant: 2013, 2014</p>
+									</article>
+								</div>
+							</div>
+
+						</div>
+					</section>
+
+				<!--  -->
+					<section id="publications" class="three">
+						<div class="container">
+
+							<header>
+								<h2>Publications</h2>
+							</header>
+
+							<div class="row">
+								<div class="4u">
+									<article class="item">
+										<header>
+											<h3>Fine-Grained Preemption Analysis Across Virtual Machines</h3>
+										</header>
+										<p>Co-author, in review</p>
+									</article>
+									<article class="item">
+										<header>
+											<h3>Approximation of Critical Path Using Low-level System Events</h3>
+										</header>
+										<p>Main author, in review</p>
+									</article>
+								</div>
+								<div class="4u">
+									<article class="item">
+										<header>
+											<h3>Teaching Operating Systems Concepts with Execution Visualization</h3>
+										</header>
+										<p>Main author, ASEE 2014</br>
+										[<a href="resources/papers/paper-asee14-v5.pdf">Read online</a> |
+										 <a href="resources/papers/bibtex.html#giraldeau2014asee">BibTeX</a>]
+										</p>
+									</article>								
+									<article class="item">
+										<header>
+											<h3>High Performance Tracing Tools for Multicore Linux Hard Real-Time Systems</h3>
+										</header>
+										<p>Co-author, RTLWS proceedings, 2012</br>
+										[<a href="resources/papers/rtlws14_paper.pdf">Read online</a> |
+										 <a href="resources/papers/bibtex.html#beamonte2012">BibTeX</a>]
+										</p>
+									</article>
+									<article class="item">
+										<header>
+											<h3>Recovering system metrics from kernel trace</h3>
+										</header>
+										<p>OLS, 2011</br>
+										[<a href="resources/papers/lttng-kernel-metrics-print.pdf">Read online</a> |
+										 <a href="resources/papers/bibtex.html#giraldeau2011kerneltrace">Slides</a>]
+										</p>
+									</article>
+									<article class="item">
+										<header>
+											<h3>Configuration file manager using modifiable abstract view (french)</h3>
+										</header>
+										<p>Master thesis, 2010</br>
+										[<a href="resources/master/memoire.pdf">Read online</a> |
+										 <a href="resources/master/presentation.pdf">Slides</a>]
+										</p>
+									</article>
+								</div>
+								<div class="4u">
+									<article class="item">
+										<header>
+											<h3>MILLE-XTERM and LTSP</h3>
+										</header>
+										<p>Co-author, Linux Journal, 2006</br>
+										[<a href="http://www.linuxjournal.com/article/9097">Read online</a> |
+										 <a href="esources/papers/bibtex.html#giraldeau2006mille">BibTeX</a>]
+										</p>
+									</article>
+									<article class="item">
+										<header>
+											<h3>OSCAR Clusters</h3>
+										</header>
+										<p>Co-author, Linux Symposium, 2003</br>
+										[<a href="resources/papers/Reprint-Scott-OLS2003.pdf">Read online</a> |
+										 <a href="resources/papers/bibtex.html#mugler-oscar">BibTeX</a>]
+										</p>
+									</article>
+									<article class="item">
+										<header>
+											<h3>Thin-OSCAR : Design and future implementation</h3>
+										</header>
+										<p>Co-author, HPCS 2003</br>
+										[<a href="resources/papers/10.1.1.2.8118.pdf">Read online</a> |
+										 <a href="resources/papers/bibtex.html#des2003thin">BibTeX</a>]
+										</p>
+									</article>
+									<article class="item">
+										<header>
+											<h3>Development, installation and maintenance of Elix-II, a 180 nodes diskless cluster running thin-OSCAR</h3>
+										</header>
+										<p>Co-author, HPCS 2003</br>
+										[<a href="resources/papers/10.1.1.3.6877.pdf">Read online</a> |
+										 <a href="resources/papers/bibtex.html#barrette2003development">BibTeX</a>]
+										</p>
+									</article>
+								</div>
+<!-- paper template 
+									<article class="item">
+										<header>
+											<h3></h3>
+										</header>
+										<p></br>
+										[<a href="resources/papers/">Read online</a> |
+										 <a href="resources/papers/bibtex.html#">BibTeX</a>]
+										</p>
+									</article>
+-->
+							</div>
+						</div>
+					</section>
+
+				<!-- About Me -->
+					<section id="about" class="four">
+						<div class="container">
+
+							<header>
+								<h2>About me</h2>
+							</header>
+							<img class="image featured" src="images/pic09.jpg" alt="" />
+							<h3>Studies</h3>
+							<p>Ph.D. Computer Engineering student, <a href="http://www.polymtl.ca">École Polytechnique de Montréal</a>, ongoing</p>
+							<p>M.Sc. Computer Science, <a href="http://www.usherbrooke.ca">Université de Sherbrooke</a>, 2010</p>
+							<p>B.Ing. Electrical engineering, <a href="http://www.usherbrooke.ca">Université de Sherbrooke</a>, 2005</p>
+						</div>
+					</section>
+			
+				<!-- Contact -->
+					<section id="contact" class="five">
+						<div class="container">
+
+							<header>
+								<h2>Contact</h2>
+							</header>
+
+							Email:&nbsp;<a href="mailto:francis.giraldeau@gmail.com">francis.giraldeau@gmail.com</a><br>
+							<a href="https://launchpad.net/~francis-giraldeau">Launchpad page</a> with SSH and GnuPG keys<br>
+							<a href="https://admin.fedoraproject.org/accounts/user/view/fgiraldeau">Fedora project page</a><br>
+							<a href="http://multivax.blogspot.com/">Multivax: technology blog</a><br>
+							<a href="http://giraldeau.blogspot.com/">Tranche d'idée: personal blog (french)</a><br>
+							<a href="http://github.com/giraldeau/">Branches on Github</a><br>
+
+						</div>
+					</section>
+			
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+				
+				<!-- Copyright -->
+					<div class="copyright">
+						<p>&copy; 2014 Francis Giraldeau. All rights reserved.</p>
+						<ul class="menu">
+							<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 						</ul>
 					</div>
-		
+				
 			</div>
 
 	</body>

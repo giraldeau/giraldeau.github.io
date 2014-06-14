@@ -1,3 +1,10 @@
+@inproceedings{giraldeau2014asee,
+  title={Teaching Operating Systems Concepts with Execution Visualization},
+  author={Giraldeau, F. and H. Boucheneb and Dagenais, M. },
+  booktitle={American Society for Engineering Education},
+  year={2014}
+}
+
 @inproceedings{giraldeau2011kerneltrace,
   title={Recovering System Metrics from Kernel Trace},
   author={Giraldeau, F. and Desfossez, J. and Goulet, D. and Dagenais, M. and Desnoyers, M.},
@@ -40,4 +47,12 @@
   publisher={SSC, Inc, 2208 NW Market Street, Suite 407, Seattle, WA, 98107, USA,}
 }
 
-@inproceedings{beamonte2012, author = {Beamonte, Raphaël and Giraldeau, Francis and Dagenais, Michel}, title = {High Performance Tracing Tools for Multicore Linux Hard Real-Time Systems}, booktitle = {Proceedings of the 14th Real-Time Linux Workshop}, year = {2012}, location = {Chapel Hill, NC, US}, numpages = {7}, publisher = {OSADL}, }
+@inproceedings{beamonte2012,
+    author = {Beamonte, Raphaël and Giraldeau, Francis and Dagenais, Michel},
+    title = {High Performance Tracing Tools for Multicore Linux Hard Real-Time Systems},
+    booktitle = {Proceedings of the 14th Real-Time Linux Workshop},
+    year = {2012},
+    location = {Chapel Hill, NC, US},
+    numpages = {7},
+    publisher = {OSADL},
+}
