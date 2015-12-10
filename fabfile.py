@@ -6,7 +6,7 @@ from fabric.decorators import with_settings
 env.hosts = ['step.polymtl.ca']
 env.user = 'fgiraldeau'
 
-homedir = '/home/fgiraldeau/'
+homedir = '/home/etudiant/fgiraldeau/'
 basedir = homedir + 'nova_html'
 
 def deploy():
